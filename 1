@@ -25,3 +25,9 @@ int main)
     
 chmod 755 hello_shell.sh
 ./hello_shell.sh
+
+
+添加自定义路径到“PATH”环境变量
+PATH=$PATH:/home/shiyanlou/mybin(这只能是临时添加，退出终端就会消失)
+永久添加：  echo "PATH=$PATH:/home/shiyanlou/mybin" >> .zshrc（zshrc只是实验中的配置文件。相应Bash的配置文件為.bashrc)
+
